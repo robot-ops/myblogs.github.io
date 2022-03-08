@@ -1,0 +1,43 @@
+baseURL = 'http://myblogs.github.io/'
+languageCode = 'en-us'
+title = "My Blogs"
+theme = "m10c"
+paginate = 8
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[params]
+  author = "By"
+  description = "Front End Engineer and Mobile Developer."
+  menu_item_separator = " - "
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/robot-ops"
+  [[params.social]]
+    icon = "instagram"
+    name = "Instagram"
+    url = "https://instagram.com/dit_bay"
+
+  # Default theme
+  #[params.style]
+  #  darkestColor = "#242930"
+  #  darkColor = "#353b43"
+  #  lightColor = "#afbac4"
+  #  lightestColor = "#ffffff"
+  #  primaryColor = "#57cc8a"
